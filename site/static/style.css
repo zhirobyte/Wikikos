@@ -1,0 +1,917 @@
+:root {
+  --orange_black : #8f301d;
+  --orange: #cf4427;
+  --background: #f9f5f4;
+  --brown: #ebe2c3;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* custom text create account */
+@media (min-width: 992px) {
+  .navbar-nav .nav-item-create {
+    background-color: var(--orange);
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+
+  .navbar-nav .nav-item-create .nav-link {
+    color: var(--background);
+    padding-inline: 15px;
+  }
+
+  .navbar-nav .nav-item-login {
+    background-color: var(--background);
+    border-radius: 20px;
+    margin-left: 20px;
+    border: solid 1px var(--orange);
+  }
+
+  .navbar-nav .nav-item-login .nav-link {
+    color: var(--orange);
+    padding-inline: 15px;
+  }
+}
+
+/* home css */
+.home-all {
+  position: relative;
+}
+
+.home-all .shape2 {
+  background-color: var(--brown);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+#home .row {
+  height: 88.5%;
+}
+
+#home #col-1 {
+  width: 30px;
+  margin-bottom: 80px;
+  z-index: 1000;
+}
+
+#home #col-1 h1 {
+  color: var(--orange);
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#home #col-1 h4 {
+  font-size: 25px;
+  font-style: italic;
+  color: var(--orange);
+}
+
+#home #col-1 p {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: var(--orange);
+}
+
+#home #col-1 .input-group {
+  background-color: var(--orange);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#home #col-1 .input-group .form-control {
+  margin-right: 10px;
+  height: 40px;
+  background-color: var(--background);
+}
+
+#home #col-1 .input-group button {
+  height: 40px;
+  background-color: var(--background);
+}
+
+#home #col-2 {
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#home #col-2 img {
+  width: 90%;
+}
+
+/* login css */
+.login-all {
+  position: relative;
+}
+
+.login-all .shape2 {
+  background-color: var(--brown);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+#login .row {
+  height: 88.5%;
+}
+
+#login #col-1 {
+  width: 30px;
+  margin-bottom: 30px;
+  z-index: 1000;
+}
+
+#login #col-1 h1 {
+  color: var(--orange);
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#login #col-1 h4 {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: var(--orange);
+}
+
+#login #col-1 form .form-group label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#login #col-1 form .form-group input {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  width: 400px;
+  border-radius: 10px;
+}
+
+#login #col-1 a {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#login #col-1 form button {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+}
+
+#login #col-2 {
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#login #col-2 img {
+  width: 70%;
+}
+
+/* create css */
+.create-all {
+  position: relative;
+}
+
+.create-all .shape2 {
+  background-color: var(--brown);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+#create .row {
+  height: 88.5%;
+}
+
+#create #col-1 {
+  width: 30px;
+  margin-bottom: 30px;
+  z-index: 1000;
+}
+
+#create #col-1 h1 {
+  color: var(--orange);
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#create #col-1 h4 {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: var(--orange);
+}
+
+#create #col-1 form .form-group {
+  margin-bottom: 10px;
+}
+
+#create #col-1 form .form-group label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#create #col-1 form .form-group input {
+  border: 1px solid var(--orange);
+  width: 400px;
+  border-radius: 10px;
+}
+
+#create #col-1 form .form-group select {
+  border: 1px solid var(--orange);
+  width: 400px;
+  border-radius: 10px;
+}
+
+#create #col-1 form button {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+}
+
+#create #col-2 {
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#create #col-2 img {
+  width: 70%;
+}
+
+/* edit-user */
+#edit-user h1 {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+#edit-user form .form-group label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#edit-user form .form-group input {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#edit-user form .form-group select {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#edit-user form button {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+}
+
+/* search */
+#search .input-group {
+  background-color: var(--orange);
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#search .input-group .form-control {
+  margin-right: 10px;
+  height: 40px;
+  background-color: var(--background);
+  border-radius: 10px;
+}
+
+#search .input-group button {
+  height: 40px;
+  background-color: var(--background);
+}
+
+#search h1 {
+  color: var(--orange);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#search .kos-found {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search #kos-item {
+  width: 300px;
+  height: max-content;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: var(--brown);
+}
+
+#search #kos-item:hover {
+  width: 300px;
+  height: max-content;
+  background-color: var(--brown);
+  cursor: pointer;
+  border: 1px solid var(--orange);
+}
+
+#search #kos-item .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#search #kos-item #card-body {
+  width: 300px;
+}
+
+#search #kos-item .card-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--orange);
+}
+
+#search #kos-item .card-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+#search #kos-item .card-info img {
+  margin-right: 10px;
+}
+
+#search #kos-item .card-info p {
+  color: var(--orange);
+  margin-bottom: 0px;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+/* profile */
+#profile #info1 h1 {
+  font-weight: 600;
+  color: var(--orange);
+}
+
+#profile #info1 p {
+  color: var(--orange);
+  margin-bottom: 0px;
+}
+
+#profile #info1 a {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+#profile #nomor-telpon label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#profile #nomor-telpon a {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#profile #nomor-telpon #nomor-telpon-data a {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background: var(--orange);
+  border-radius: 10px;
+  font-size: 12px;
+  border: 1px solid var(--orange);
+}
+
+#profile .semua-kosan {
+  margin-top: 40px;
+}
+
+#profile .semua-kosan .data1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile .semua-kosan .data1 h1 {
+  font-weight: 600;
+  color: var(--orange);
+}
+
+#profile .semua-kosan .data1 a {
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+}
+
+#profile .semua-kosan #data-kosan {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#profile .semua-kosan #data-kosan a {
+  background: var(--orange);
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid var(--orange);
+}
+
+#profile .semua-kosan #data-kosan #a2 {
+  background: var(--orange_black);
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid var(--orange_black);
+}
+
+/* create-kosan */
+#create-kosan h1 {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+#create-kosan form .form-group label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#create-kosan form .form-group input {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#create-kosan form .form-group select {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#create-kosan form .form-group textarea {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#create-kosan form button {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+}
+
+/* edit-kosan */
+#edit-kosan h1 {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+#edit-kosan .aa{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#edit-kosan .aa a{
+  background: var(--orange);
+  border-radius: 10px;
+  font-size: 15px;
+  margin-right: 20px;
+  border: 1px solid var(--orange);
+}
+
+#edit-kosan #myTab {
+  margin-top: 20px;
+}
+
+#edit-kosan #myTab .nav-link {
+  color: var(--orange);
+  font-weight: bold;
+  background-color: var(--brown);
+}
+
+#edit-kosan #myTab .nav-link.active {
+  background-color: var(--orange);
+  color: white;
+}
+
+#edit-kosan #myTabContent #profile{
+  margin-top: 20px;
+}
+
+#edit-kosan #myTabContent #fasilitas{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#edit-kosan form .form-group label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#edit-kosan form .form-group input {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#edit-kosan form .form-group select {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#edit-kosan form button {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+}
+
+#edit-kosan label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#edit-kosan textarea {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+/* #edit-kosan #profile a {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+  margin-bottom: 40px;
+} */
+
+#edit-kosan #profile a {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background: var(--orange);
+  border-radius: 10px;
+  font-size: 12px;
+  border: 1px solid var(--orange);
+}
+
+#edit-kosan #fasilitas a {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+}
+
+#edit-kosan #fasilitas #image-crop {
+  width: 320px;
+  height: 180px;
+  background-color: var(--orange);
+  object-fit: contain;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* edit foto */
+#edit-foto h1 {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+#edit-foto form .form-group label {
+  color: var(--orange);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#edit-foto form .form-group input {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#edit-foto form .form-group select {
+  margin-bottom: 15px;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+#edit-foto form button {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+}
+
+#edit-foto #image-crop {
+  width: 320px;
+  height: 180px;
+  background-color: var(--orange);
+  object-fit: contain;
+  border: 1px solid black;
+  margin-top: 20px;
+  visibility: hidden;
+  margin-bottom: 15px;
+}
+
+/* anggota */
+#anggota .info1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#anggota .info1 h1 {
+  font-weight: 600;
+  color: var(--orange);
+}
+
+#anggota .info1 p {
+  color: var(--orange);
+  margin-bottom: 0px;
+}
+
+#anggota .info1 a {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 10px;
+  margin-bottom: 40px;
+  height: fit-content;
+  align-self: center;
+}
+
+#anggota .info1 #a2 {
+  margin-bottom: 15px;
+  background: #8f301d;
+  border-radius: 10px;
+  border: 1px solid #8f301d;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  height: fit-content;
+  align-self: center;
+}
+
+#anggota #data-anggota {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#anggota #data-anggota a {
+  background: var(--orange);
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid var(--orange);
+  align-self: center;
+}
+
+/* kosan */
+#kosan #col-1 .kos-photo {
+  width: 600px;
+  height: 400px;
+  background-color: var(--orange);
+  object-fit: contain;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#kosan #col-1 .carousel {
+  width: 600px;
+  height: 400px;
+}
+
+#kosan #col-1 .carousel-inner{
+  width: 600px;
+  height: 100%;
+} 
+
+#kosan #col-1 .carousel-inner img{
+  width: 600px;
+  height: 100%;
+  background-color: var(--orange);
+  object-fit: contain;
+  border: 1px solid black;
+  /* margin-top: 20px;
+  margin-bottom: 15px; */
+}
+
+#kosan #col-1 .carousel-control-prev span{
+  background-color: var(--orange);
+}
+
+#kosan #col-1 .carousel-control-next span{
+  background-color: var(--orange);
+}
+
+/* #kosan #col-1 .carousel-item {
+  width: 600px;
+  height: 400px;
+  background-color: var(--orange);
+  object-fit: contain;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: hidden;
+} */
+
+#kosan #col-2 h1 {
+  color: var(--orange);
+  font-weight: 600;
+  font-size: 50px;
+}
+
+#kosan #col-2 .card-info {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+#kosan #col-2 .card-info img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+#kosan #col-2 .card-info p {
+  margin-bottom: 0px;
+}
+
+#kosan #col-2 .card-info .kos-harga {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* #kosan #col-2 button {
+  margin-bottom: 15px;
+  background: var(--orange);
+  border-radius: 10px;
+  border: 1px solid var(--orange);
+  margin-top: 20px;
+  width: 100px;
+} */
+
+.resetpass {
+  position: relative;
+  width: 1440px;
+  height: 922px;
+
+  background: #f9f5f4;
+}
+
+#resetbyemail form h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+
+  color: #ce4525;
+}
+
+#resetbyemail form input {
+  position: absolute;
+  width: 816px;
+  height: 70px;
+  left: 312px;
+  top: 200px;
+
+  background: #f8f5f4;
+  border: 2px solid #ce4525;
+  box-sizing: border-box;
+  border-radius: 71.5px;
+}
+
+#resetbyemail form button {
+  position: absolute;
+  width: 227.33px;
+  height: 66px;
+  left: 606px;
+  top: 350px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+
+  background: #cf4427;
+  border-radius: 76px;
+  color: #f9f5f4;
+}
+
+/* admin */
+#admin #info1 {
+  text-align: center;
+}
+
+#admin #info1 h1 {
+  font-weight: 600;
+  color: var(--orange);
+}
+
+#admin #info1 p {
+  color: var(--orange);
+  margin-bottom: 20px;
+}
+
+#admin #info1 .aa{
+  margin-bottom: 30px;
+}
+
+#admin #info1 .aa a{
+  margin-inline: 20px;
+   background: var(--orange);
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid var(--orange);
+}
+
+
+#admin #myTab {
+  margin-top: 20px;
+}
+
+#admin #myTab .nav-link {
+  color: var(--orange);
+  font-weight: bold;
+  background-color: var(--brown);
+}
+
+#admin #myTab .nav-link.active {
+  background-color: var(--orange);
+  color: white;
+}
+
+#admin #myTabContent #data-kosan{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#admin #myTabContent #data-kosan a {
+  background: var(--orange);
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid var(--orange);
+}
